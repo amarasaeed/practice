@@ -1,43 +1,66 @@
-/* 
-* {
+
+*{
     margin: 0;
     padding: 0;
-}
-
-
-nav {
-    position: sticky;
+ }
+ #chari{
+  
+    color: orange;
+ }
+ #team{
+    
+    color: white;
+  
+ }
+ .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1px;
-    padding-top: 0px;
-    padding-bottom: 5px;
-    padding-right: 100px;
-    padding-left: 100px;
     background-color: transparent;
-    top: 0;
-    z-index: 1000;
-}
-
-
-.nav-items {
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    padding: 10px 40px;
+    
+   
+   
+ }
+ .nav-list{
+  
+    
+ }
+ .list-items{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-}
-
-
-.nav-items a {
-    text-decoration: none;
-    font-size: 16px;
-    color: black;
-    padding: 10px 15px;
-.chari {
-    color: red;
-  }
-  
-  .team {
-    color:white;
-  }
-} */
+    align-items: center;
+    list-style: none;
+   
+ }
+ .list-items li{
+    padding:  10px;
+    color: white;
+ }
+ .list-items li:hover a,
+ .list-items li a.active {
+    color: orange;
+    transition: 0.3s ease;
+ }
+ .dropdown-content{
+    display: none;
+ }
+ .dropdown i{
+   padding: 4px ;
+   font-size: 9px;
+ }
+ #button{
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: orange;
+    padding: 6px 8px;
+    margin-left: 10px;
+ }
+ #button i{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+ }
