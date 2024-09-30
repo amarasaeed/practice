@@ -1,0 +1,43 @@
+/* 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: transparent;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.nav-items a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding: 10px 15px;
+.chari {
+    color: red;
+  }
+  
+  .team {
+    color:white;
+  }
+} */
