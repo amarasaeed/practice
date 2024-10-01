@@ -1,15 +1,16 @@
 import React from 'react'
+import './Hero.css'
 
  function Hero () {
   return (
-    <div>
-    <div> <i className="fas fa-angle-left"></i></div>
-    <div>
-    <h1>Let's Change The World <br />With Humanity</h1>
-    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Similique sit dolores. </h6>
-    <button>Learn More <i className="fas fa-arrow-right"></i> </button>
-    <div><i className="fas fa-angle-right"></i></div>
-    </div></div>
+    <div className='arrow'>
+    <div> <i className="fas fa-angle-left arrow-btn1" ></i></div>
+    <div className='headings'>
+    <h1>Let's Change The World <br />With Humanity</h1><br />
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Similique sit dolores. </p><br />
+    <button>Learn More <i className="fas fa-arrow-right "></i> </button> </div>
+    <div><i className="fas fa-angle-right arrow-btn2 "></i></div>
+   </div>
   )
 }
 export default Hero

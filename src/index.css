@@ -1,7 +1,7 @@
 
 body{
     overflow: hidden;
-    background-image: url(../public/images/banner.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../public/images/banner.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

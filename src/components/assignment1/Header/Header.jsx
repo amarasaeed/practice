@@ -6,7 +6,7 @@ import './Header.css'
  function Header() {
   return (
    <div> 
-       <section  style={{ display: 'flex' ,justifyContent:'space-between',padding:'5px 20px',color:'rgb(224, 220, 220)'}}>
+       <section  style={{ display: 'flex' ,justifyContent:'space-between',padding:'5px 40px',color:'rgb(224, 220, 220)'}}>
        <p style={{ display: 'flex' , gap: '20px',fontSize:'13px'}}>
             <span className='location'>  <i className="fas fa-map-marker-alt"></i>   123 street,NewYork</span>
 
